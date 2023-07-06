@@ -13,7 +13,9 @@
     align-items: center;
     justify-content: space-around;
 }
-
+.logoimgbtn{
+    background-color:transparent
+}
 .logoimg {
     width: 50px;
 }
@@ -74,10 +76,7 @@
     cursor: pointer;
 }
 
-.btn:hover {
-    color: #000;
-    background-color: #fff;
-}
+
 
 .about-heading {
     color: rgb(0, 0, 0);
@@ -127,6 +126,7 @@
     text-align: center;
     padding: 15px;
     justify-content: space-around;
+    border-radius: 5px;
 }
 
 .box:hover {
@@ -142,6 +142,13 @@
     background-color: gray;
     margin-top: 15px;
     padding: 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.box-btn:hover{
+    color: #fff;
+    background-color: red;
 }
 
 .service-container {
