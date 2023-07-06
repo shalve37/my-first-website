@@ -1,0 +1,9 @@
+*{
+    /* margin: 2px; */
+    /* padding: 0px; */
+}
+.hello{
+    color: cornflowerblue;
+    /* cursor: pointer; */
+    cursor: url(photo-1583452924150-c86772c4fab6.jpg) , auto;
+}
