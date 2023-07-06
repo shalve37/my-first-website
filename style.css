@@ -13,9 +13,11 @@
     align-items: center;
     justify-content: space-around;
 }
-.logoimgbtn{
-    background-color:transparent
+
+.logoimgbtn {
+    background-color: transparent
 }
+
 .logoimg {
     width: 50px;
 }
@@ -101,7 +103,8 @@
 .about-title {
     font-size: 35px;
 }
-.about-description{
+
+.about-description {
     color: #000000;
     font-size: 18px;
     margin-top: 15px;
@@ -144,9 +147,10 @@
     padding: 20px;
     border: none;
     border-radius: 10px;
-    
+
 }
-.box-btn:hover{
+
+.box-btn:hover {
     color: #fff;
     background-color: red;
 }
