@@ -102,6 +102,12 @@
 .about-title {
     font-size: 35px;
 }
+.about-description{
+    color: #000000;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .icon0 {
     width: 100px;
