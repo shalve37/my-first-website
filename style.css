@@ -1,18 +1,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:'Times New Roman', Times, serif;
 }
 .menu-container{
     color: white;
-    background-color:gray;
-    padding: 5px;
+    background-color:rgb(53, 53, 53);
+    padding: 3px;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .logoimg{
-    width: 100px;
+    width: 50px;
 }
 .menus{
     display: flex;
@@ -25,4 +26,38 @@
 }
 .listitem:hover{
     color: chartreuse;
+}
+.banner-img{
+    width:300px;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(background.png),
+    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53))
+}
+.title{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.btn{
+    color: white;
+    background-color: red;
+    padding: 15px;
+    border: none;
+    border-radius:3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+    background-color: #fff;
 }
